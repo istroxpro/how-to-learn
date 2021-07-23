@@ -136,7 +136,7 @@ margin-top: 100px;
   font-weight: bold;
   text-align: center;
   margin: auto;
-  margin-bottom: 20px;
+  
 }
 
 .digits__section-subtitle {
@@ -146,11 +146,16 @@ margin-top: 100px;
   font-weight: normal;
   text-align: center;
   margin: auto;
-  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
-
 
 .digits__table_cell {
   width: 250px;
   align-self: stretch;
+}
+
+.newP {
+  padding-top: 20px;
+  margin-top: 20px;
 }
