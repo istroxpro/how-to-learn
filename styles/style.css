@@ -65,6 +65,7 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
 .header__link:hover {
   text-decoration: underline;
 }
@@ -105,7 +106,7 @@
 }
 
 .digits {
-margin-top: 100px;
+  margin-top: 100px;
 }
 
 .digits__table {
@@ -299,6 +300,7 @@ margin-top: 100px;
 .footer__column_copyright {
   flex-basis: 711px;
 }
+
 .footer__author {
   position: absolute;
   bottom: 18px;
@@ -308,10 +310,11 @@ margin-top: 100px;
 }
 
 .footer__column-heading {
-height: 30px;
-font-size: 18px;
-font-weight: bold;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 .footer__column-links {
   list-style: none;
   line-height: 26px;
@@ -337,6 +340,7 @@ font-weight: bold;
   text-decoration: none;
   color: white;
 }
+
 .footer__link:hover {
   color:thistle;
 }
