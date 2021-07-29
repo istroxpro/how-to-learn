@@ -27,13 +27,13 @@
 }
 
 .logo {
-  position: absolute;
-  top: 30px;
-  left: 64px;
   z-index: 100;
 }
 
 .logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
   width: 183px;
   height: 32px;
 }
@@ -93,7 +93,6 @@
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-  
 }
 
 .two-columns__main-text {
@@ -102,13 +101,14 @@
   min-width: 784px;
   font-size: 24px;
   font-weight: normal;
+  margin: auto;
 }
 
 .two-columns__paragraph {
   margin: 0;
 }
 
-.two-columns__paragraph:nth-of-type(1n) {
+.two-columns__paragraph:nth-of-type(-n+2) {
   margin-bottom: 30px;
 }
 
@@ -242,6 +242,7 @@
   font-weight: bold;
   text-align: center;
   align-self: center;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -317,7 +318,6 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  position:unset;
 }
 
 .footer__column_content_copyright {
