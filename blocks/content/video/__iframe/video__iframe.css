@@ -1,0 +1,9 @@
+.video__iframe {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  .video__iframe:nth-of-type(1) {
+    border-right: 20px white solid;
+  } /* Сделал таким образом отступ между видео как показано в брифе, возможно костыль, пожалуйста, прокомментируй */  
