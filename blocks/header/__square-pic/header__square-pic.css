@@ -5,5 +5,4 @@
     right: 0;
     height: 568px;
     width: 568px;
-    animation: rotation 20s infinite linear; /* подключил анимацию в 20 секунд, бесконечную, плавную */
   }
