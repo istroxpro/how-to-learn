@@ -8,6 +8,6 @@
     margin-right: 100px;
   }
 
-  .cards__item:nth-of-type(3n) {
+  .cards__item:nth-of-type(3n) { /* сделал отступ для каждого третьего элемента */
     margin-right: 0;
   }
